@@ -1,0 +1,22 @@
+@import "~codemirror/lib/codemirror.css";
+@import "~codemirror/addon/fold/foldgutter.css";
+@import "~codemirror/addon/hint/show-hint.css";
+
+.App-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-editor {
+    margin-top: 1.5em;
+    border: solid thin #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
